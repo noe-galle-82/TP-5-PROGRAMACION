@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 10px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.imagen-decorativa img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10 auto 30px auto;
+  border-radius: 8px;
+}
+
+ul {
+  
+  margin: 0 0 30px 40px;
+  padding: 20;
+}
+
+.servicio.envio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;                /* ✅ Responsive */
+  gap: 20px;
+}
+
+.envio {
+  flex: 1 1 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
